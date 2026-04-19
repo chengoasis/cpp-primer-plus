@@ -1,0 +1,18 @@
+// divide.cpp -- integer and floating-point division
+#include <iostream>
+#include <iomanip>
+
+int main() {
+    using namespace std;
+    cout << fixed << setprecision(6);
+
+    cout << "Integer division: 9/5 = " << 9 / 5 << endl;
+    cout << "Floating-point division: 9.0/5.0 = ";
+    cout << 9.0 / 5.0 << endl;
+    cout << "Mixed division: 9.0/5 = " << 9.0 / 5 << endl;
+    cout << "double constans: 1e7/9.0 = ";
+    cout << 1.e7 / 9.0 << endl;
+    cout << "float constants: 1e7f/9.0f = ";
+    cout << 1.e7f / 9.0f << endl;
+    return 0;
+}

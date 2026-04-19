@@ -39,5 +39,11 @@
 
 # debug information files
 *.dwo
+
+# 忽略无后缀的可执行文件，但不忽略 .cpp 源文件
 code/chapter*/[^.]*
+!code/chapter*/*.cpp
+
+# 忽略 exercise 开头的可执行文件，但不忽略 .cpp 源文件
 exercises/chapter*/exercise*
+!exercises/chapter*/exercise*.cpp
