@@ -67,11 +67,11 @@ int prune(void);
 
 函数 prune 不接受餐素，返回一个 int
 
-**2.10 定义函数时，在什么情况下不必使用关键字return？** 
+**2.10 定义函数时，在什么情况下不必使用关键字return?** 
 
 返回类型为 void
 
-**2.11 假设您编写的main( )函数包含如下代码： **
+**2.11 假设您编写的main( )函数包含如下代码：**
 
 ```cpp
 cout << "Please enter your PIN: ";
